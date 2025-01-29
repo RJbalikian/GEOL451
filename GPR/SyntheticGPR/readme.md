@@ -51,3 +51,7 @@ python setup.py install
 ```
 
 # Run gprMax
+After you have built and installed gprMax, we will do calculations and run gprMax from a jupyter notebook.
+
+Find and 
+
