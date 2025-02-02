@@ -42,7 +42,7 @@ Steps 1-7 as a code bloc:
 conda init
 # KILL TERMINAL
 # REOPEN TERMINAL (Ctrl + `)
-conda env -n gprpy
+conda create -n gprpy
 conda activate gprpy
 conda install git
 conda install setuptools
