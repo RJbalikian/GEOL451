@@ -24,17 +24,33 @@ These instructions are drawn heavily from the official [GPRpy Github Repository 
 ## GPRpy Installation
 1. Install git
     * This can be installed from [git's website](https://git-scm.com/downloads) or...
-    * This can be install with anaconda: `conda install git` (recommended for github codespaces)
+    * This can be install with anaconda: `conda install git` (recommended for github codespaces, takes about 30 sec)
 2. Change the working directory of your terminal to GPRProcessing:
     * In codespaces/terminal: `cd ./GPR/GPRProcessing/`
     * (You can clone the repository to a difference directory, but the Jupyter notebook you will run needs to be in the same folder as the top-level folder of the GPRpy directory)
-3. Clone the GPRpy repository to this GPRProcessing folder
+3. Clone the GPRpy repository to this GPRProcessing folder (<10 seconds)
     * `git clone https://github.com/NSGeophysics/GPRPy.git`
 4. Change your working directory againg to the top-level GPRPy folder
     * `cd GPRPy`
-5. Pre-installation setup
+5. Pre-installation setup (<10 seconds)
     * `python installMigration.py`
 6. Install GPRPy
     * `pip install .` (NOTE: you must includ the period (.) at the end of your command)
+
+Steps 1-7 as a code bloc:
+```bash
+conda init
+# KILL TERMINAL
+# REOPEN TERMINAL (Ctrl + `)
+conda env -n gprpy
+conda activate gprpy
+conda install git
+conda install setuptools
+cd ./GPR/GPRProcessing
+git clone https://github.com/NSGeophysics/GPRPy.git
+cd GPRPy
+python installMigration.py
+pip install .
+```
 
 Open the jupyter notebook and begin processing! GEOL451_GPRProcessing.ipynb
