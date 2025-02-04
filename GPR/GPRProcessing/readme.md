@@ -22,25 +22,33 @@ This can be done on Github Codespaces or on your local machine.
 These instructions are drawn heavily from the official [GPRpy Github Repository Readme](https://github.com/NSGeophysics/GPRPy/tree/master)
 
 ## GPRpy Installation
-1. Install git
-    * This can be installed from [git's website](https://git-scm.com/downloads) or...
-    * This can be install with anaconda: `conda install git` (recommended for github codespaces, takes about 30 sec)
-2. Change the working directory of your terminal to GPRProcessing:
+1. Initiate conda and restart your terminal
+    * `conda init`
+    * Kill the terminal by clicking the trash can icon near the top-right of your lower terminal window
+    * Restart the terminal by type Ctrl + ` (grave accent, on same key as tilde (~) usually)
+2. Create and activate an anaconda environment called gprpy that we will install gprpy into
+    * `conda create -n gprpy`
+    * `conda activate gprpy`
+3. Install git and setuptools, use the following commands in your terminal:
+    * `conda install git` installs git directly into the anaconda environment. This is recommended for github codespaces, takes about 30 sec.
+        * If you are doing this on your local computer, you can also install directly from the [git website](https://git-scm.com/downloads)
+    * `conda install setuptools` will install the setuptools package that anaconda can use to set up gprpy
+4. Change the working directory of your terminal to GPRProcessing:
     * In codespaces/terminal: `cd ./GPR/GPRProcessing/`
     * (You can clone the repository to a difference directory, but the Jupyter notebook you will run needs to be in the same folder as the top-level folder of the GPRpy directory)
-3. Clone the GPRpy repository to this GPRProcessing folder (<10 seconds)
+5. Clone the GPRpy repository to this GPRProcessing folder (<10 seconds)
     * `git clone https://github.com/NSGeophysics/GPRPy.git`
-4. Change your working directory againg to the top-level GPRPy folder
+6. Change your working directory againg to the top-level GPRPy folder
     * `cd GPRPy`
-5. Pre-installation setup (<10 seconds)
+7. Pre-installation setup to install the migration toolset (<10 seconds)
     * `python installMigration.py`
-6. Install GPRPy
-    * `pip install .` (NOTE: you must includ the period (.) at the end of your command)
+8. Install GPRPy
+    * `pip install .` (NOTE: you must include the period (.) at the end of your command)
 
-Steps 1-7 as a code bloc:
+Steps 1-7 as a code block:
 ```bash
 conda init
-# KILL TERMINAL
+# KILL TERMINAL (trash can icon near top right of lower terminal window)
 # REOPEN TERMINAL (Ctrl + `)
 conda create -n gprpy
 conda activate gprpy
@@ -53,4 +61,7 @@ python installMigration.py
 pip install .
 ```
 
-Open the jupyter notebook and begin processing! GEOL451_GPRProcessing.ipynb
+Open the jupyter notebook (GEOL451_GPRProcessing.ipynb) and begin processing!
+* Remember, if you are using a fresh Github Codespace, you must first install the python and jupyter extensions, and select the gprpy kernel!
+
+If modules are not importing correctly, you may need to move your Jupyter Notebook into the GPRPy folder.
