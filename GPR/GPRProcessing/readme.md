@@ -52,8 +52,7 @@ conda init
 # REOPEN TERMINAL (Ctrl + `)
 conda create -n gprpy
 conda activate gprpy
-conda install git
-conda install setuptools
+conda install git setuptools
 cd ./GPR/GPRProcessing
 git clone https://github.com/NSGeophysics/GPRPy.git
 cd GPRPy
