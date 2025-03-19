@@ -1,0 +1,4 @@
+resipy
+ipykernel
+ipywidgets
+pandas
