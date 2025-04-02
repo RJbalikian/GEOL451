@@ -27,7 +27,7 @@ Now, we are going to practice using preconfigured files to setup and install eve
 As a simple code block, it's just two commands:
 ```bash
 source "/workspaces/GEOL451/ERT/ert_ghcs_setup.sh"
-pip install -r "/workspaces/GEOL451/ERT/ert_requirements.txt
+pip install -r "/workspaces/GEOL451/ERT/ert_requirements.txt"
 ```
 
 Now you are ready to run the jupyter notebooks in the ERT folder and subfolders.

@@ -1,0 +1,13 @@
+ERT Data
+Profile: 700E Class Project Data
+Array: Dipole-Dipole
+Spread: 2x32 increasing
+Electrode spacing: 2m
+Number of Electrodes: 64
+GPS Locations: NAD83/UTM 16N
+   Start: 387203e 4463346n
+   Station/center 1: 387268e 4463345n
+   End: 387328e 4463345n
+    
+Notes:
+Profile started along south end of farm field on the grass and headed towards the East. Profile ended near tree line on East side of cleared property.
