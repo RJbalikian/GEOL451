@@ -58,6 +58,6 @@ flowchart TD
     end
     
     %% Connect process to model tracks with a dotted line to show it's a detail
-    Process -.-> ModelTracks
+    Process <-.- ModelTracks
 
 ```
