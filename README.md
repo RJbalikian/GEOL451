@@ -17,6 +17,6 @@ For the Spring 2025 semester, the following should help you find files in this r
 |11| ERT | ERT Survey Design | Data files in `./ERT/ERTSampleData/` |
 |12| ERT | ERT Processing & Preprocessing |Notebook in `./ERT/ERTProcessing/` <br> Setup files in `./ERT/` |
 |13| ERT | ERT Data Analysis & Interpretation | N/A |
-|14| EM | EM Data Analysis | Notebook in `./EM/` <br> Files in `./EM/EMSampleData/` |
-|15| Synthesis | N/A | N/A |
+|14| FEM | EM Data Analysis | Files in `./EM/EMSampleData/` |
+|15| TEM/Synthesis | TEM Data Analysis, Well Logs, and Data Synthesis | Notebook in `./EM/` <br> Files in `./EM/EMSampleData/`  |
 |16| Report | N/A | N/A |
