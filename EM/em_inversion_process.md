@@ -1,3 +1,6 @@
+
+To display the below diagram in Codespaces, search "mermaid" in the extensions marketplace and isntall an extension that allows previewing mermaid diagrams in markdown ("Markdown Preview Mermaid Support" has been tested and works). The preview button is an icon with a magnifying glass in the top right of your window on the tab bar.
+
 ```mermaid
 flowchart TD
     %% Data inputs
