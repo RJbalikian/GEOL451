@@ -25,6 +25,7 @@ For synthetic GPR data, we will run gprMax, an open-source electromagnetic model
     i) KILL YOUR TERMINAL (click the trash can icon/kill terminal button near the top right of the lower/terminal window)
     ii) REOPEN YOUR TERMINAL. The easiest way is Ctrl + Grave Accent (this is usually the button (which also has a tilde ~ on it) next to the 1 at the top left of your keyboard)
 7. Now in your new terminal, change your directory to the GPRMax directory using the follow command: `cd GPR/SyntheticGPR/GPRMax` 
+
 8. We will install gprMax into this folder using anaconda (this should already be installed on your codespace). The instructions for this are included here, but you may also see more information at the gprMax documentation [here](https://docs.gprmax.com/en/latest/include_readme.html#installation). You may have to type "y" when the system prompts to confirm that you want to install/download based on these commands. Usually, you have to right click and select paste if you are copy/pasting these commands (Ctrl + v may not work)
     i) Your terminal should now say: `@<YOUR_USERNAME> ➜ .../GEOL451/GPR/SyntheticGPR/GPRMax (main) $`. 
     ii) Add the conda-forge channel to anaconda: `conda config --append channels conda-forge`
