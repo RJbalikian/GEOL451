@@ -26,17 +26,17 @@ For synthetic GPR data, we will run gprMax, an open-source electromagnetic model
     ii) REOPEN YOUR TERMINAL. The easiest way is Ctrl + Grave Accent (this is usually the button (which also has a tilde ~ on it) next to the 1 at the top left of your keyboard)
 6. Now in your new terminal, change your directory to the GPRMax directory using the follow command: `cd GPR/SyntheticGPR/GPRMax` 
 7. We will install gprMax into this folder using anaconda (this should already be installed on your codespace). The instructions for this are included here, but you may also see more information at the gprMax documentation [here](https://docs.gprmax.com/en/latest/include_readme.html#installation). You may have to type "y" when the system prompts to confirm that you want to install/download based on these commands. Usually, you have to right click and select paste if you are copy/pasting these commands (Ctrl + v may not work).
-    i. Your terminal should now say: `@<YOUR_USERNAME> ➜ .../GEOL451/GPR/SyntheticGPR/GPRMax (main) $`. 
-    ii. Add the conda-forge channel to anaconda: `conda config --append channels conda-forge`
-    iii. Update anaconda: `conda update conda` (this takes about 30-60 seconds, you will need to type y then press enter to confirm along the way)
-    iv. Install git (to be able to copy the gprMax package to your codespace): `conda install git` (30 seconds or so)
-    v. Clone/copy the gprMax repository into your GPRMax folder: `git clone https://github.com/gprMax/gprMax.git` (10-20 seconds)
-    vi. Change your working directory into your new gprMax folder: `cd gprMax`
-    vii. Create a new anaconda environment with all the dependencies needed to run gprMax: `conda env create -f conda_env.yml` (1-2 minutes)
-    xi. Activate the gprMax anaconda environment: `conda activate gprMax`
+    1. Your terminal should now say: `@<YOUR_USERNAME> ➜ .../GEOL451/GPR/SyntheticGPR/GPRMax (main) $`. 
+    2. Add the conda-forge channel to anaconda: `conda config --append channels conda-forge`
+    3. Update anaconda: `conda update conda` (this takes about 30-60 seconds, you will need to type y then press enter to confirm along the way)
+    4. Install git (to be able to copy the gprMax package to your codespace): `conda install git` (30 seconds or so)
+    5. Clone/copy the gprMax repository into your GPRMax folder: `git clone https://github.com/gprMax/gprMax.git` (10-20 seconds)
+    6. Change your working directory into your new gprMax folder: `cd gprMax`
+    7. Create a new anaconda environment with all the dependencies needed to run gprMax: `conda env create -f conda_env.yml` (1-2 minutes)
+    8. Activate the gprMax anaconda environment: `conda activate gprMax`
         1. You should notice the environment name at the far left of your terminal `(gprMax)`
-    xii. Build the gprMax software package: `python setup.py build` (1-2 minutes)
-    xiii. Install the gprMax software package: `python setup.py install` (10-30 seconds)
+    9. Build the gprMax software package: `python setup.py build` (1-2 minutes)
+    10. Install the gprMax software package: `python setup.py install` (10-30 seconds)
 
 To repeat and display in a more compact form, these commands are:
 ```bash
