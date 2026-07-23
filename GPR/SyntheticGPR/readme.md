@@ -7,12 +7,12 @@ For synthetic GPR data, we will run gprMax, an open-source electromagnetic model
 
 # Setup gprMax for synthetic GPR modeling
 1. Create a Github codespace from the Geol451 Repository
-  1. Go to the main [GEOL451 github repository page](https://github.com/RJbalikian/GEOL451)
-  2. There should be a (green) button near the top right of the main page that says "<> Code"
-  3. Click the Code button, navigate to the "Codespaces" tab, select the "+" button to create a codespace (remember, a codespace is essentially a virtual computer where you can run code on a Microsoft/Github system)
+    1. Go to the main [GEOL451 github repository page](https://github.com/RJbalikian/GEOL451)
+    2. There should be a (green) button near the top right of the main page that says "<> Code"
+    3. Click the Code button, navigate to the "Codespaces" tab, select the "+" button to create a codespace (remember, a codespace is essentially a virtual computer where you can run code on a Microsoft/Github system)
 2. Use the Explorer tab (icon looks like two pages) on the left side of your browser window (or click Ctrl + Shift + E) 
-  a) Your "Home" directory in this codespace will be "/workspaces/GEOL451/"
-  b) Navigate to the GPR Folder in your codespace. You can continue to read these instructions here, but they are also located in the Readme file at /workspaces/GEOL451/GPR/SytheticGPR/Readme.md
+    a) Your "Home" directory in this codespace will be "/workspaces/GEOL451/"
+    b) Navigate to the GPR Folder in your codespace. You can continue to read these instructions here, but they are also located in the Readme file at /workspaces/GEOL451/GPR/SytheticGPR/Readme.md
 3. The lower half of your page should by default have a bash terminal window. There are multiple "tabs" on the top of this section should have multiple views. Select the "Terminal" view (this should be selected by default). At the right side of this window section is a "plus" button and chevron (down arrow). It should say bash next to that, and your terminal should have your username and your current directory and the branch name in parantheses. For me, this looks like: `@RJbalikian ➜ /workspaces/GEOL451 (main) $`. Your cursor should be after the $.
   ![Default bash terminal in GEOL451](image-1.png)
 
