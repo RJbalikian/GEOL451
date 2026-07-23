@@ -7,9 +7,9 @@ For synthetic GPR data, we will run gprMax, an open-source electromagnetic model
 
 # Setup gprMax for synthetic GPR modeling
 1. Create a Github codespace from the Geol451 Repository
-  a) Go to the main [GEOL451 github repository page](https://github.com/RJbalikian/GEOL451)
-  b) There should be a (green) button near the top right of the main page that says "<> Code"
-  c) Click the Code button, navigate to the "Codespaces" tab, select the "+" button to create a codespace (remember, a codespace is essentially a virtual computer where you can run code on a Microsoft/Github system)
+  1. Go to the main [GEOL451 github repository page](https://github.com/RJbalikian/GEOL451)
+  2. There should be a (green) button near the top right of the main page that says "<> Code"
+  3. Click the Code button, navigate to the "Codespaces" tab, select the "+" button to create a codespace (remember, a codespace is essentially a virtual computer where you can run code on a Microsoft/Github system)
 2. Use the Explorer tab (icon looks like two pages) on the left side of your browser window (or click Ctrl + Shift + E) 
   a) Your "Home" directory in this codespace will be "/workspaces/GEOL451/"
   b) Navigate to the GPR Folder in your codespace. You can continue to read these instructions here, but they are also located in the Readme file at /workspaces/GEOL451/GPR/SytheticGPR/Readme.md
